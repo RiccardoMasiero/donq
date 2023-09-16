@@ -53,7 +53,7 @@ export const MyForm = () => {
                 <input id="email" placeholder="nome@email.com" type="text" name="email" required onChange={handleChange}></input>
 
                 <label for="whatsapp">Oppure su WhatsaApp:</label>
-                <input id="whatsapp" placeholder="+39 0123456789" type="text" name="whatsapp" onChange={handleChange}></input>
+                <input id="whatsapp" placeholder="+39 0123456789" type="text" name="whatsapp" required onChange={handleChange}></input>
 
                 <div className="checkboxes">
                     <div className="firstCheck">
